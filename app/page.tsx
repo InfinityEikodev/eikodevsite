@@ -138,7 +138,7 @@ export default function Home() {
         <h1 className='text-3xl font-bold mb-4'>Contact & Jobs</h1>
         <p>
           Thanks for the visit! I hope you enjoyed it. If you want to take a peek at
-          the source code of this website, you can do so at
+          the source code of this website, you can do so at. <a className="text-blue-600 font-medium" href="mailto:samuel.lol2019a@hotmail.com" target="_blank">@Eiko_Yoshiida</a>
         </p>
         <h2 className='font-bold text-2xl mb-4'>Talk to me!</h2>
         <ul className='list-disc list-inside pl-6 text-lg mb-4 md:list-outside'>
