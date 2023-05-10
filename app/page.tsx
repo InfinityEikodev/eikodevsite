@@ -117,7 +117,7 @@ export default function Home() {
               </div>
               <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
                 <h1 className='font-bold text-2xl'>CarlosVerso</h1>
-                <a href='https://discord.gg/YS3DkBpN' target='_blanck' className='pt-1 font-light mb-4'>Click here</a>
+                <a href='https://discord.gg/carlosverso' target='_blanck' className='pt-1 font-light mb-4'>Click here</a>
                 </div>
             </div>
             <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
