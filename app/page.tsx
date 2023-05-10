@@ -156,7 +156,7 @@ export default function Home() {
         <br />
         <p>
           Also, I'm looking for apprenticeship/"jovem aprendiz" (in portuguese)
-          opportunities. Feel free to contact me at LinkedIn or email.
+          opportunities. Feel free to contact me at Discord or email.
         </p>
       </section>
 
