@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradiant-color {
+    @apply bg-gradient-to-r from-[#30001f]  to-[#42012a]
+}
