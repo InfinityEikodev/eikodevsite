@@ -4,8 +4,8 @@ import { Ubuntu } from 'next/font/google'
 const ubuntu = Ubuntu({weight: ['400','700','500','300'], style: 'normal', subsets: ['latin']})
 
 export const metadata = {
-  title: 'Eiko',
-  description: 'Eiko dev site',
+  title: 'Samuel Silva (a.k.a Eiko)',
+  description: 'Software Engineer and Backend Developer.',
 }
 
 export default function RootLayout({
