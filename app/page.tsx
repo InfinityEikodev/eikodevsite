@@ -110,6 +110,15 @@ export default function Home() {
                 <h1 className='font-bold text-2xl'>League of HU3</h1>
                 <a href='https://discord.gg/leagueofhu3' target='_blanck' className='pt-1 font-light mb-4'>https://discord.gg/leagueofhu3</a>
               </div>
+              </div>
+              <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
+            <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
+              <img src="/ModPlace.png" alt="CarlosVerso" className='bg-cover w-full h-full'/>
+              </div>
+              <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
+                <h1 className='font-bold text-2xl'>ModPlace</h1>
+                <a href='https://discord.gg/5DpvNeFv' target='_blanck' className='pt-1 font-light mb-4'>https://discord.gg/5DpvNeFv</a>
+                </div>
             </div>
             <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
             <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
@@ -118,7 +127,7 @@ export default function Home() {
               <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
                 <h1 className='font-bold text-2xl'>CDJ</h1>
                 <a href='https://discord.gg/jogos' target='_blanck' className='pt-1 font-light mb-4'>https://discord.gg/jogos</a>
-              </div>
+                </div>
             </div>
           </div>
         </div>
