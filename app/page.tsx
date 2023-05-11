@@ -140,11 +140,11 @@ export default function Home() {
                 </div>
             <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
             <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
-              <img src="/interogacao.png" alt="ModPlace" className='bg-cover w-full h-full'/>
+              <img src="/infinitydev.png" alt="ModPlace" className='bg-cover w-full h-full'/>
               </div>
               <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
-                <h1 className='font-bold text-2xl'>coming soon</h1>
-                <a href='' target='_blanck' className='pt-1 font-light mb-4'></a>
+                <h1 className='font-bold text-2xl'>Infinity Team</h1>
+                <a href='https://discord.gg/V2HVFvZu86' target='_blanck' className='pt-1 font-light mb-4'>Click here</a>
                 </div>
             </div>
           </div>
