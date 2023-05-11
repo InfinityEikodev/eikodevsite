@@ -6,6 +6,7 @@ const ubuntu = Ubuntu({weight: ['400','700','500','300'], style: 'normal', subse
 export const metadata = {
   title: 'Eiko',
   description: 'Software Engineer and Backend Developer.',
+  
 }
 
 export default function RootLayout({
@@ -15,6 +16,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+                 <head>
+        <meta property="og:title" content="Samuel Eiko (a.k.a Eiko)" />
+        <meta
+          property="og:description"
+          content="Software Engineer and Backend Developer."
+        />
+      </head>
       <body className={`${ubuntu.className} flex flex-col bg-black text-white`}>
         {children}
       </body>
