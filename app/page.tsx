@@ -29,21 +29,21 @@ export default function Home() {
 
       <div className='flex flex-row gap-28'>
         <section className='flex flex-col text-center font-light prose-invert prose-p:px-5 prose-p:mb-4 pb-28 md:w-2/3 md:prose-p:px-0 md:text-left md:pl-28'>
-          <h1 className='text-3xl font-bold mb-4'>Eiko Yoshida</h1>
-          <p className='font-normal'>
-            I’m a web developer from Teresina, Brazil. I had my first contact with
-            programming when I was 8, but only really got into coding when I was 10.
+          <h1 className='text-3xl font-bold mb-4'>Eiko Yoshida</h1>          
+          <p className='font-normal mb-4'>
+            I'm a web developer from Teresina, Brazil. I had my first contact with
+            programming when I was 15, but I didn't really start coding until I was 16.
             Nowadays, I'm a fast learner and proficient in TypeScript and JavaScript,
-            focusing on backend development.
-          </p>
-          <p className='font-normal'>
+            with a focus on back-end development.
+          </p>          
+          <p className='font-normal mb-4'>
             I've always been passionate about creating original and creative personal
             projects, which led me to develop several skills over the years. Also, I
             have always enjoyed participating in communities and projects with other
-            people.
+            people.      
           </p>
-          <p className='font-normal'>
-            I am interested in highly scalable technologies, DevOps, InfoSec, and
+          <p className='font-normal mb-4'>
+            I'm interested in highly scalable technologies, DevOps, InfoSec and 
             entrepreneurship.
           </p>
         </section>
