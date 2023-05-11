@@ -85,7 +85,7 @@ export default function Home() {
 
       <section className='flex flex-col text-center prose-invert prose-p:px-5 prose-p:mb-4 pb-28 md:prose-p:px-0'>
         <h1 className='text-3xl font-bold mb-4 text-center'>
-        Community Leader
+        Community Leader and Moderator
         </h1>
         <p>
           @Discord
@@ -127,6 +127,24 @@ export default function Home() {
               <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
                 <h1 className='font-bold text-2xl'>LEAGUE of Hu3BR</h1>
                 <a href='https://discord.gg/leagueofhu3' target='_blanck' className='pt-1 font-light mb-4'>Click here</a>
+                </div>
+                </div>
+            <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
+            <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
+              <img src="/interrogação.png" alt="ModPlace" className='bg-cover w-full h-full'/>
+              </div>
+              <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
+                <h1 className='font-bold text-2xl'>coming soon</h1>
+                <a href='' target='_blanck' className='pt-1 font-light mb-4'></a>
+                </div>
+                </div>
+            <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
+            <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
+              <img src="/interrogação.png" alt="ModPlace" className='bg-cover w-full h-full'/>
+              </div>
+              <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
+                <h1 className='font-bold text-2xl'>coming soon</h1>
+                <a href='' target='_blanck' className='pt-1 font-light mb-4'></a>
                 </div>
             </div>
           </div>
