@@ -29,7 +29,7 @@ export default function Home() {
 
       <div className='flex flex-row gap-28'>
         <section className='flex flex-col text-center font-light prose-invert prose-p:px-5 prose-p:mb-4 pb-28 md:w-2/3 md:prose-p:px-0 md:text-left md:pl-28'>
-          <h1 className='text-3xl font-bold mb-4'>Eiko Yoshida</h1>          
+          <h1 className='text-3xl font-bold mb-4'>Samuel Silva (a.k.a Eiko)</h1>          
           <p className='font-normal mb-4'>
             I'm a web developer from Teresina, Brazil. I had my first contact with
             programming when I was 15, but I didn't really start coding until I was 16.
