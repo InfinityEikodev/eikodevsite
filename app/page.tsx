@@ -131,16 +131,16 @@ export default function Home() {
                 </div>
             <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
             <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
-              <img src="/interrogação.png" alt="ModPlace" className='bg-cover w-full h-full'/>
+              <img src="/hell.png" alt="ModPlace" className='bg-cover w-full h-full'/>
               </div>
               <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
-                <h1 className='font-bold text-2xl'>coming soon</h1>
-                <a href='' target='_blanck' className='pt-1 font-light mb-4'></a>
+                <h1 className='font-bold text-2xl'>Hell City</h1>
+                <a href='https://discord.gg/7S2hXJhCdF' target='_blanck' className='pt-1 font-light mb-4'>Click here</a>
                 </div>
                 </div>
             <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
             <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
-              <img src="/interrogação.png" alt="ModPlace" className='bg-cover w-full h-full'/>
+              <img src="/interogacao.png" alt="ModPlace" className='bg-cover w-full h-full'/>
               </div>
               <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
                 <h1 className='font-bold text-2xl'>coming soon</h1>
@@ -163,7 +163,7 @@ export default function Home() {
           <li>Email: <a className="text-blue-600 font-medium" href="mailto:samuel.lol2019a@hotmail.com" target="_blank">samuel.lol2019a@hotmail.com</a></li>
           <li>Github: <a className="text-blue-600 font-medium" href="https://github.com/InfinityEikodev" target="_blank">@Eiko</a></li>
           <li>Twitter: <a className="text-blue-600 font-medium" href="https://twitter.com/Eiko_Yoshiida" target="_blank">@Eiko_Yoshiida</a></li>
-          <li>Discord: <a href="" className='text-blue-600 font-medium'>Eiko#0666</a> </li>
+          <li>Discord: <a href="" className='text-blue-600 font-medium'>Eiko#0666</a></li>
         </ul>
         <h2 className='font-bold text-2xl mb-4'>Jobs/Work</h2>
         <p>
