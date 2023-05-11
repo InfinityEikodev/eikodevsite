@@ -22,7 +22,6 @@ export default function RootLayout({
           property="og:description"
           content="Software Engineer and Backend Developer."
         />
-        <meta name="theme-color" content='#306FBD'></meta>
       </head>
       <body className={`${ubuntu.className} flex flex-col bg-black text-white`}>
         {children}
