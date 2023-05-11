@@ -165,7 +165,7 @@ export default function Home() {
         <h2 className='font-bold text-2xl mb-4'>Play with me !</h2>
         <ul className='list-disc list-inside pl-6 text-lg mb-4 md:list-outside'>
           <li>Steam: <a href="https://steamcommunity.com/id/kushowrld/" className='text-blue-600 font-medium'>Eiko Yoshida</a></li>
-          <li>RiotID: <a href="" className='text-blue-600 font-medium'>sam#ムーンボー</a></li>
+          <li>Riot ID: <a href="" className='text-blue-600 font-medium'>sam#ムーンボー</a></li>
           <li>League of Legends: <a href="" className='text-blue-600 font-medium'>sam ama carol</a></li>
         </ul>
         <h2 className='font-bold text-2xl mb-4'>Jobs/Work</h2>
