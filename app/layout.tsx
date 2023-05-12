@@ -18,6 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta property="og:title" content="Samuel Eiko (a.k.a Eiko)" />
+        <meta name="theme-color" content="#00EEFE"></meta>
         <meta
           property="og:description"
           content="Software Engineer and Backend Developer."
