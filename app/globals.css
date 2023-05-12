@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 .gradiant-color {
-    @apply bg-gradient-to-r from-[#30001f]  to-[#42012a]
+    /* @apply bg-gradient-to-r from-[#30001f]  to-[#42012a] */
+    background-color: rgba(117, 117, 117, 0.062);
+}
+.color{
+    box-shadow: 0px 0px 10px 0px #cf0688;
 }
