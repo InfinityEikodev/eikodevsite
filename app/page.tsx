@@ -93,6 +93,74 @@ export default function Home() {
 
       <section className='flex flex-col text-center prose-invert prose-p:px-5 prose-p:mb-4 pb-28 md:prose-p:px-0'>
         <h1 className='text-3xl font-bold mb-4 text-center'>
+          Most used technologies
+        </h1>
+        <p>
+          I love bleeding-edge technologies and frameworks! Keep in mind that this list is not exhaustive, as I am always tinkering with different tools.
+        </p>
+
+        <div className='flex justify-center pt-5 not-prose'>
+          <div className='grid justify-center items-center gap-5 w-[70rem] md:grid-cols-2'>
+            <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
+              <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
+                <img src="/ts.png" alt="TypeScript" className='bg-cover w-full h-full' />
+              </div>
+              <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
+                <h1 className='font-bold text-2xl'>TypeScript</h1>
+                <a target='_blanck' className='pt-1 font-light mb-4'>JavaScript but with types.</a>
+              </div>
+            </div>
+            <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
+              <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
+                <img src="/rust.png" alt="TypeScript" className='bg-cover w-full h-full' />
+              </div>
+              <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
+                <h1 className='font-bold text-2xl'>Rust</h1>
+                <a target='_blanck' className='pt-1 font-light mb-4'>Language for performant and scalable systems.</a>
+              </div>
+            </div>
+            <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
+              <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
+                <img src="/nestjs.png" alt="TypeScript" className='bg-cover w-full h-full' />
+              </div>
+              <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
+                <h1 className='font-bold text-2xl'>Nest.js</h1>
+                <a target='_blanck' className='pt-1 font-light mb-4'>Framework for efficient server-side applications.</a>
+              </div>
+            </div>
+            <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
+              <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
+                <img src="/Fastify.png" alt="TypeScript" className='bg-cover w-full h-full' />
+              </div>
+              <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
+                <h1 className='font-bold text-2xl'>Fastify</h1>
+                <a target='_blanck' className='pt-1 font-light mb-4'>Fast & low overhead web framework.</a>
+              </div>
+            </div>
+            <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
+              <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
+                <img src="/next.png" alt="TypeScript" className='bg-cover w-full h-full' />
+              </div>
+              <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
+                <h1 className='font-bold text-2xl'>Next.js</h1>
+                <a target='_blanck' className='pt-1 font-light mb-4'>Framework for production React apps.</a>
+              </div>
+            </div>
+            <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
+              <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
+                <img src="/SvelteKit.png" alt="TypeScript" className='bg-cover w-full h-full' />
+              </div>
+              <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
+                <h1 className='font-bold text-2xl'>SvelteKit</h1>
+                <a target='_blanck' className='pt-1 font-light mb-4'>Framework for building streamlined web apps.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <section className='flex flex-col text-center prose-invert prose-p:px-5 prose-p:mb-4 pb-28 md:prose-p:px-0'>
+        <h1 className='text-3xl font-bold mb-4 text-center'>
           Community Leader and Moderator
         </h1>
         <p>
