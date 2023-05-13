@@ -55,7 +55,7 @@ export default function Home() {
 
       <Carousel />
 
-      <section className='flex flex-col text-center prose-invert prose-p:px-5 prose-p:mb-4 pb-28 md:prose-p:px-0'>
+      <section style={{userSelect:'none'}} className='flex flex-col text-center prose-invert prose-p:px-5 prose-p:mb-4 pb-28 md:prose-p:px-0'>
         <h1 className='text-3xl font-bold mb-4 text-center'>
           Most used technologies
         </h1>
@@ -123,7 +123,7 @@ export default function Home() {
         </div>
 
       </section>
-      <section className='flex flex-col text-center prose-invert prose-p:px-5 prose-p:mb-4 pb-28 md:prose-p:px-0'>
+      <section style={{userSelect:'none'}} className='flex flex-col text-center prose-invert prose-p:px-5 prose-p:mb-4 pb-28 md:prose-p:px-0'>
         <h1 className='text-3xl font-bold mb-4 text-center'>
           Community Leader and Moderator
         </h1>
@@ -183,7 +183,7 @@ export default function Home() {
 
       </section>
 
-      <section className='flex flex-col text-center font-light prose-invert prose-p:px-5 prose-p:mb-4 pb-28 md:w-2/3 md:prose-p:px-0 md:text-left md:pl-28'>
+      <section style={{userSelect:'none'}} className='flex flex-col text-center font-light prose-invert prose-p:px-5 prose-p:mb-4 pb-28 md:w-2/3 md:prose-p:px-0 md:text-left md:pl-28'>
         <h1 className='text-3xl font-bold mb-4'>Contact & Jobs</h1>
         <p className='mb-4'>
           Thanks for the visit! I hope you enjoyed it. If you want to take a peek at
