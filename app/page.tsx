@@ -55,7 +55,7 @@ export default function Home() {
 
       <Carousel />
 
-      <section style={{userSelect:'none'}} className='flex flex-col text-center prose-invert prose-p:px-5 prose-p:mb-4 pb-28 md:prose-p:px-0'>
+      <section style={{ userSelect: 'none' }} className='flex flex-col text-center prose-invert prose-p:px-5 prose-p:mb-4 pb-28 md:prose-p:px-0'>
         <h1 className='text-3xl font-bold mb-4 text-center'>
           Most used technologies
         </h1>
@@ -123,9 +123,10 @@ export default function Home() {
         </div>
 
       </section>
-      <section style={{userSelect:'none'}} className='flex flex-col text-center prose-invert prose-p:px-5 prose-p:mb-4 pb-28 md:prose-p:px-0'>
+
+      <section style={{ userSelect: 'none' }} className='flex flex-col text-center prose-invert prose-p:px-5 prose-p:mb-4 pb-28 md:prose-p:px-0'>
         <h1 className='text-3xl font-bold mb-4 text-center'>
-          Community Leader and Moderator
+          Community Leader
         </h1>
         <p>
           @Discord
@@ -144,6 +145,15 @@ export default function Home() {
             </div>
             <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
               <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
+                <img src="/NightCity.png" alt="ModPlace" className='bg-cover w-full h-full' />
+              </div>
+              <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
+                <h1 className='font-bold text-2xl'>Night City</h1>
+                <a href='' target='_blanck' className='pt-1 font-light mb-4'>Coming Soon</a>
+              </div>
+            </div>
+            <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
+              <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
                 <img src="/CDJ.png" alt="ModPlace" className='bg-cover w-full h-full' />
               </div>
               <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
@@ -151,9 +161,23 @@ export default function Home() {
                 <a href='https://discord.gg/jogos' target='_blanck' className='pt-1 font-light mb-4'>Click here</a>
               </div>
             </div>
+          </div>
+        </div>
+
+      </section>
+      <section style={{ userSelect: 'none' }} className='flex flex-col text-center prose-invert prose-p:px-5 prose-p:mb-4 pb-28 md:prose-p:px-0'>
+        <h1 className='text-3xl font-bold mb-4 text-center'>
+          Community Moderator
+        </h1>
+        <p>
+          @Discord
+        </p>
+
+        <div className='flex justify-center pt-5 not-prose'>
+          <div className='grid justify-center items-center gap-5 w-[70rem] md:grid-cols-2'>
             <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
               <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
-                <img src="/CarlosVerso.png" alt="ModPlace" className='bg-cover w-full h-full' />
+                <img src="/CarlosVerso.png" alt="CarlosVersos" className='bg-cover w-full h-full' />
               </div>
               <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
                 <h1 className='font-bold text-2xl'>CarlosVerso</h1>
@@ -162,20 +186,11 @@ export default function Home() {
             </div>
             <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
               <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
-                <img src="/HU3.png" alt="ModPlace" className='bg-cover w-full h-full' />
+                <img src="/HU3.png" alt="CarlosVersos" className='bg-cover w-full h-full' />
               </div>
               <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
-                <h1 className='font-bold text-2xl'>LEAGUE of Hu3BR</h1>
+                <h1 className='font-bold text-2xl'>League of Hu3BR</h1>
                 <a href='https://discord.gg/leagueofhu3' target='_blanck' className='pt-1 font-light mb-4'>Click here</a>
-              </div>
-            </div>
-            <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
-              <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
-                <img src="/infinitydev.png" alt="ModPlace" className='bg-cover w-full h-full' />
-              </div>
-              <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
-                <h1 className='font-bold text-2xl'>Infinity Team</h1>
-                <a href='https://discord.gg/V2HVFvZu86' target='_blanck' className='pt-1 font-light mb-4'>Click here</a>
               </div>
             </div>
           </div>
@@ -183,9 +198,9 @@ export default function Home() {
 
       </section>
 
-      <section style={{userSelect:'none'}} className='flex flex-col text-center font-light prose-invert prose-p:px-5 prose-p:mb-4 pb-28 md:w-2/3 md:prose-p:px-0 md:text-left md:pl-28'>
-        <h1 className='text-3xl font-bold mb-4'>Contact & Jobs</h1>
-        <p className='mb-4'>
+      <section className='flex flex-col text-center font-light prose-invert prose-p:px-5 prose-p:mb-4 pb-28 md:w-2/3 md:prose-p:px-0 md:text-left md:pl-28'>
+        <h1 style={{ userSelect: 'none' }} className='text-3xl font-bold mb-4'>Contact & Jobs</h1>
+        <p style={{ userSelect: 'none' }} className='mb-4'>
           Thanks for the visit! I hope you enjoyed it. If you want to take a peek at
           the source code of this website, you can do so at. <a className="text-blue-600 font-medium" href="mailto:samuel.lol2019a@hotmail.com" target="_blank">Samuel Eiko</a>.
         </p>
