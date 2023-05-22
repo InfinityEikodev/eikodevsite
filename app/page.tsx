@@ -142,6 +142,24 @@ export default function Home() {
                 <h1 className='font-bold text-2xl'>ModPlace</h1>
                 <a href='https://discord.gg/5DpvNeFv' target='_blanck' className='pt-1 font-light mb-4'>Click here</a>
               </div>
+              </div>
+            <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
+              <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
+                <img src="/CDJ.gif" alt="ModPlace" className='bg-cover w-full h-full' />
+              </div>
+              <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
+                <h1 className='font-bold text-2xl'>CDJ</h1>
+                <a href='https://discord.gg/jogos' target='_blanck' className='pt-1 font-light mb-4'>Click here</a>
+              </div>
+            </div>
+            <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
+              <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
+                <img src="/logo.gif" alt="ModPlace" className='bg-cover w-full h-full' />
+              </div>
+              <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
+                <h1 className='font-bold text-2xl'>YOUNGZ ®</h1>
+                <a href='https://discord.gg/younggz' target='_blanck' className='pt-1 font-light mb-4'>Click here</a>
+              </div>
             </div>
             <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
               <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
@@ -150,15 +168,6 @@ export default function Home() {
               <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
                 <h1 className='font-bold text-2xl'>Night City</h1>
                 <a href='https://discord.gg/rYyrYBze2q' target='_blanck' className='pt-1 font-light mb-4'>Click here</a>
-              </div>
-            </div>
-            <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
-              <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
-                <img src="/CDJ.png" alt="ModPlace" className='bg-cover w-full h-full' />
-              </div>
-              <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
-                <h1 className='font-bold text-2xl'>CDJ</h1>
-                <a href='https://discord.gg/jogos' target='_blanck' className='pt-1 font-light mb-4'>Click here</a>
               </div>
             </div>
           </div>
