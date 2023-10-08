@@ -15,7 +15,7 @@ export default function Home() {
             <a href="https://twitter.com/Eiko_Yoshiida">
               <svg width="28" height="28" className="w-7 h-7" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M26.8334 3.5C25.7161 4.28805 24.4791 4.89079 23.17 5.285C22.4674 4.47709 21.5336 3.90447 20.4949 3.64458C19.4562 3.38468 18.3628 3.45006 17.3624 3.83186C16.3621 4.21366 15.5032 4.89347 14.9018 5.77933C14.3005 6.6652 13.9857 7.71439 14 8.785V9.95166C11.9498 10.0048 9.91817 9.55011 8.0862 8.62802C6.25422 7.70592 4.67872 6.34507 3.50002 4.66666C3.50002 4.66666 -1.16665 15.1667 9.33335 19.8333C6.93064 21.4643 4.06837 22.2821 1.16669 22.1667C11.6667 28 24.5 22.1667 24.5 8.75C24.4989 8.42503 24.4677 8.10086 24.4067 7.78166C25.5974 6.60741 26.4377 5.12483 26.8334 3.5V3.5Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path></svg>
             </a>
-            <a href="https://github.com/InfinityEikodev">
+            <a href="https://github.com/virutalhiro/">
               <svg width="28" height="28" className="w-7 h-7" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 22.1667C4.66665 23.9167 4.66665 19.25 2.33331 18.6667M18.6666 25.6667V21.1517C18.7104 20.5954 18.6352 20.0361 18.4462 19.5111C18.2571 18.9861 17.9584 18.5073 17.57 18.1067C21.2333 17.6983 25.0833 16.31 25.0833 9.94C25.083 8.31113 24.4565 6.74473 23.3333 5.565C23.8651 4.13992 23.8275 2.56474 23.2283 1.16667C23.2283 1.16667 21.8516 0.758332 18.6666 2.89333C15.9927 2.16862 13.174 2.16862 10.5 2.89333C7.31498 0.758332 5.93831 1.16667 5.93831 1.16667C5.33909 2.56474 5.30148 4.13992 5.83331 5.565C4.70179 6.75348 4.07459 8.33404 4.08331 9.975C4.08331 16.2983 7.93331 17.6867 11.5966 18.1417C11.2128 18.5383 10.9168 19.0113 10.7278 19.5299C10.5389 20.0485 10.4613 20.6011 10.5 21.1517V25.6667" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path></svg>
             </a>
             <a href="mailto:samuel.lol2019a@hotmail.com">
@@ -145,29 +145,7 @@ export default function Home() {
               </div>
             <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
               <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
-                <img src="/CDJ.gif" alt="ModPlace" className='bg-cover w-full h-full' />
-              </div>
-              <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
-                <h1 className='font-bold text-2xl'>CDJ</h1>
-                <a href='https://discord.gg/jogos' target='_blanck' className='pt-1 font-light mb-4'>Click here</a>
-              </div>
-            </div>
-            <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
-              <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
                 <img src="/logo.gif" alt="ModPlace" className='bg-cover w-full h-full' />
-              </div>
-              <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
-                <h1 className='font-bold text-2xl'>YOUNGZ ®</h1>
-                <a href='https://discord.gg/younggz' target='_blanck' className='pt-1 font-light mb-4'>Click here</a>
-              </div>
-            </div>
-            <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
-              <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
-                <img src="/NightCity2.png" alt="ModPlace" className='bg-cover w-full h-full' />
-              </div>
-              <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
-                <h1 className='font-bold text-2xl'>Night City</h1>
-                <a href='https://discord.gg/rYyrYBze2q' target='_blanck' className='pt-1 font-light mb-4'>Click here</a>
               </div>
               </div>
             <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
@@ -177,15 +155,6 @@ export default function Home() {
               <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
                 <h1 className='font-bold text-2xl'>League of Hu3BR</h1>
                 <a href='https://discord.gg/leagueofhu3' target='_blanck' className='pt-1 font-light mb-4'>Click here</a>
-              </div>
-              </div>
-            <div className='flex flex-col border-[#2B2B2B] border-2 min-h-[124px] w-[300px] rounded-xl md:w-full md:flex-row'>
-              <div className='flex justify-center items-center w-full h-auto border-[#2B2B2B] rounded-t-xl md:border-r-2 md:w-28 md:rounded-r-none md:rounded-l-xl overflow-hidden'>
-                <img src="/CarlosVerso.png" alt="ModPlace" className='bg-cover w-full h-full' />
-              </div>
-              <div className='flex flex-col justify-center text-left pl-5 pt-5 pr-5'>
-                <h1 className='font-bold text-2xl'>CarlosVerso</h1>
-                <a href='https://discord.gg/carlosverso' target='_blanck' className='pt-1 font-light mb-4'>Click here</a>
               </div>
             </div>
           </div>
@@ -201,9 +170,8 @@ export default function Home() {
         <h2 id='aa' className='font-bold text-2xl mb-4'>Talk to me!</h2>
         <ul className='list-disc list-inside pl-6 text-lg mb-4 md:list-outside'>
           <li>Email: <a className="text-blue-600 font-medium" href="mailto:samuel.lol2019a@hotmail.com" target="_blank">samuel.lol2019a@hotmail.com</a></li>
-          <li>Github: <a className="text-blue-600 font-medium" href="https://github.com/InfinityEikodev" target="_blank">@Eiko</a></li>
-          <li>Twitter: <a className="text-blue-600 font-medium" href="https://twitter.com/Eiko_Yoshiida" target="_blank">@Eiko_Yoshiida</a></li>
-          <li> Discord: <a className='text-blue-600 font-medium'>Eiko#0666</a></li>
+          <li>Github: <a className="text-blue-600 font-medium" href="https://github.com/virutalhiro/" target="_blank">@virtualhiro</a></li>
+          <li> Discord: <a className='text-blue-600 font-medium'>@virtualhiro</a></li>
         </ul>
         <p>
         </p>
